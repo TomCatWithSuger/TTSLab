@@ -1,0 +1,8 @@
+espnet==202511
+espnet-model-zoo==0.1.7
+numpy==2.1.3
+scipy==1.13.1
+librosa==0.10.2.post1
+soundfile==0.12.1
+matplotlib==3.9.4
+g2p-en==2.1.0

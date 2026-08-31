@@ -1,0 +1,7 @@
+.git
+__pycache__
+*.py[cod]
+models/pretrained/*
+outputs/audio/*
+outputs/figures/*
+outputs/metrics/*

@@ -1,0 +1,10 @@
+001|The weather is very nice today.
+002|Speech synthesis converts written text into natural-sounding speech.
+003|Artificial intelligence is changing our daily life.
+004|Fast speech models generate audio without autoregressive decoding.
+005|How clearly can the system pronounce numbers such as 2026 and 3.14?
+006|Please pause briefly here, and then continue the sentence.
+007|A short sentence.
+008|This longer sentence evaluates whether the speech synthesis system can preserve natural rhythm, pronunciation, and intonation over a more extended sequence of words.
+009|Dr. Smith arrived at 8:30 a.m. on Tuesday.
+010|CPU inference performance depends on both the model architecture and the generated audio duration.

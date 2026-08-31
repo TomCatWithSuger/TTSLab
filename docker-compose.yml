@@ -1,0 +1,16 @@
+services:
+  app:
+    build:
+      context: .
+      network: host
+    network_mode: host
+    environment:
+      OMP_NUM_THREADS: "${CPU_THREADS:-4}"
+      MKL_NUM_THREADS: "${CPU_THREADS:-4}"
+      OPENBLAS_NUM_THREADS: "${CPU_THREADS:-4}"
+    volumes:
+      - ./src:/workspace/src:ro
+      - ./data:/workspace/data:ro
+      - ./models:/workspace/models
+      - ./outputs:/workspace/outputs
+    command: ["python", "src/run_experiment.py", "--threads", "${CPU_THREADS:-4}"]
